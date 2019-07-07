@@ -1,0 +1,285 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+int menu=0;
+int frites =0;
+int maxi = 0;
+int soda = 0;
+printf("===MENU===\n 1- Menu Best-OF \n 2- Menu McFirst \n 3- Happy Meal \n 4- Menu Veggie\n");
+scanf("%d", &menu);
+
+
+switch(menu)
+{
+    case 1:
+    printf("Ok ! Un menu Best-OF \n Avec ceci ? Frites (1) ou potatoes (0) ?\n");
+    scanf("%d", &frites);
+    if(frites)
+    {
+        printf("Ok, une frite donc \n Le menu, maxi (1) ou classique (0) ?\n");
+        scanf ("%d", &maxi);
+        if (maxi)
+        {
+            printf("Donc on a un menu maxi best-of avec une frite \n en boisson ça sera eau (1) ou soda (0) ?\n");
+            scanf("%d", &soda);
+            if (!(soda))
+            {
+                printf("Donc on a, un menu maxi best-of avec une frite et un soda \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+            if(soda)
+            {
+                 printf("Donc on a, un menu maxi best-of avec une frite et de l'eau \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+        }
+        if (!(maxi))
+        {
+            printf("Donc on a un menu best-of classique avec une frite \n en boisson ça sera eau (1) ou soda (0) ?\n");
+            scanf("%d", &soda);
+            if (!(soda))
+            {
+                printf("Donc on a, un menu best-of classqiue avec une frite et un soda \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+            if(soda)
+            {
+                 printf("Donc on a, un menu best-of classique avec une frite et de l'eau \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+        }
+    }
+    if (!(frites))
+    {
+        printf("Ok, une potatoes donc \n Le menu, maxi (1) ou classique (0) ?\n");
+        scanf ("%d", &maxi);
+        if (maxi)
+        {
+            printf("Donc on a un menu maxi best-of avec une potatoes \n en boisson ça sera eau (1) ou soda (0) ?\n");
+            scanf("%d", &soda);
+            if (!(soda))
+            {
+                printf("Donc on a, un menu maxi best-of avec une potatoes et un soda \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+            if(soda)
+            {
+                 printf("Donc on a, un menu maxi best-of avec une potatoes et de l'eau \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+        }
+        if (!(maxi))
+        {
+            printf("Donc on a un menu best-of classique avec une potatoes \n en boisson ça sera eau (1) ou soda (0) ?\n");
+            scanf("%d", &soda);
+            if (!(soda))
+            {
+                printf("Donc on a, un menu best-of classqiue avec une potatoes et un soda \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+             if(soda)
+            {
+                 printf("Donc on a, un menu best-of classique avec une potatoes et de l'eau \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+        }
+    }
+    break;
+    case 2:
+   printf("Ok ! Un menu Mc First \n Avec ceci ? Frites (1) ou potatoes (0) ?\n");
+    scanf("%d", &frites);
+    if(frites)
+    {
+        printf("Ok, une frite donc \n Le menu, maxi (1) ou classique (0) ?\n");
+        scanf ("%d", &maxi);
+        if (maxi)
+        {
+            printf("Donc on a un menu maxi Mc First avec une frite \n en boisson ça sera eau (1) ou soda (0) ?\n");
+            scanf("%d", &soda);
+            if (!(soda))
+            {
+                printf("Donc on a, un menu maxi Mc First avec une frite et un soda \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+            if(soda)
+            {
+                 printf("Donc on a, un menu maxi Mc First avec une frite et de l'eau \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+        }
+        if (!(maxi))
+        {
+            printf("Donc on a un menu Mc First classique avec une frite \n en boisson ça sera eau (1) ou soda (0) ?\n");
+            scanf("%d", &soda);
+            if (!(soda))
+            {
+                printf("Donc on a, un menu Mc First classqiue avec une frite et un soda \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+            if(soda)
+            {
+                 printf("Donc on a, un menu Mc First classique avec une frite et de l'eau \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+        }
+    }
+    if (!(frites))
+    {
+        printf("Ok, une potatoes donc \n Le menu, maxi (1) ou classique (0) ?\n");
+        scanf ("%d", &maxi);
+        if (maxi)
+        {
+            printf("Donc on a un menu Mc First avec une potatoes \n en boisson ça sera eau (1) ou soda (0) ?\n");
+            scanf("%d", &soda);
+            if (!(soda))
+            {
+                printf("Donc on a, un menu maxi Mc First avec une potatoes et un soda \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+            if(soda)
+            {
+                 printf("Donc on a, un menu maxi Mc First avec une potatoes et de l'eau \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+        }
+        if (!(maxi))
+        {
+            printf("Donc on a un menu Mc First classique avec une potatoes \n en boisson ça sera eau (1) ou soda (0) ?\n");
+            scanf("%d", &soda);
+            if (!(soda))
+            {
+                printf("Donc on a, un menu Mc First classqiue avec une potatoes et un soda \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+             if(soda)
+            {
+                 printf("Donc on a, un menu Mc First classique avec une potatoes et de l'eau \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+        }
+    }
+    break;
+    case 3:
+     printf("Ok ! Un menu Happy Meal \n Avec ceci ? Frites (1) ou potatoes (0) ?\n");
+    scanf("%d", &frites);
+    if(frites)
+    {
+        printf("Ok, une frite donc \n Le menu, maxi (1) ou classique (0) ?\n");
+        scanf ("%d", &maxi);
+        if (maxi)
+        {
+            printf("Donc on a un menu maxi Happy Meal avec une frite \n en boisson ça sera eau (1) ou soda (0) ?\n");
+            scanf("%d", &soda);
+            if (!(soda))
+            {
+                printf("Donc on a, un menu maxi Happy Meal avec une frite et un soda \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+            if(soda)
+            {
+                 printf("Donc on a, un menu maxi Happy Meal avec une frite et de l'eau \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+        }
+        if (!(maxi))
+        {
+            printf("Donc on a un menu Happy Meal classique avec une frite \n en boisson ça sera eau (1) ou soda (0) ?\n");
+            scanf("%d", &soda);
+            if (!(soda))
+            {
+                printf("Donc on a, un menu Happy Meal classqiue avec une frite et un soda \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+            if(soda)
+            {
+                 printf("Donc on a, un menu Happy Meal classique avec une frite et de l'eau \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+        }
+    }
+    if (frites==0)
+    {
+        printf("Ok, une potatoes donc \n Le menu, maxi (1) ou classique (0) ?\n");
+        scanf ("%d", &maxi);
+        if (maxi)
+        {
+            printf("Donc on a un menu Happy Meal avec une potatoes \n en boisson ça sera eau (1) ou soda (0) ?\n");
+            scanf("%d", &soda);
+            if (!(soda))
+            {
+                printf("Donc on a, un menu maxi Happy Meal avec une potatoes et un soda \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+            if(soda)
+            {
+                 printf("Donc on a, un menu maxi Happy Meal avec une potatoes et de l'eau \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+        }
+        if (!(maxi))
+        {
+            printf("Donc on a un menu Happy Meal classique avec une potatoes \n en boisson ça sera eau (1) ou soda (0) ?\n");
+            scanf("%d", &soda);
+            if (!(soda))
+            {
+                printf("Donc on a, un menu Happy Meal classqiue avec une potatoes et un soda \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+             if(soda)
+            {
+                 printf("Donc on a, un menu Happy Meal classique avec une potatoes et de l'eau \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+        }
+    }
+    break;
+    case 4:
+     printf("Ok ! Un menu Veggie \n Avec ceci ? Frites (1) ou potatoes (0) ?\n");
+    scanf("%d", &frites);
+    if(frites)
+    {
+        printf("Ok, une frite donc \n Le menu, maxi (1) ou classique (0) ?\n");
+        scanf ("%d", &maxi);
+        if (maxi)
+        {
+            printf("Donc on a un menu maxi Veggie avec une frite \n en boisson ça sera eau (1) ou soda (0) ?\n");
+            scanf("%d", &soda);
+            if (!(soda))
+            {
+                printf("Donc on a, un menu maxi Veggie avec une frite et un soda \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+            if(soda)
+            {
+                 printf("Donc on a, un menu maxi Veggie avec une frite et de l'eau \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+        }
+        if (!(maxi))
+        {
+            printf("Donc on a un menu Veggie classique avec une frite \n en boisson ça sera eau (1) ou soda (0) ?\n");
+            scanf("%d", &soda);
+            if (!(soda))
+            {
+                printf("Donc on a, un menu Veggie classqiue avec une frite et un soda \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+            if(soda)
+            {
+                 printf("Donc on a, un menu Veggie classique avec une frite et de l'eau \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+        }
+    }
+    if (!(frites))
+    {
+        printf("Ok, une potatoes donc \n Le menu, maxi (1) ou classique (0) ?\n");
+        scanf ("%d", &maxi);
+        if (!(maxi))
+        {
+            printf("Donc on a un menu Veggie avec une potatoes \n en boisson ça sera eau (1) ou soda (0) ?\n");
+            scanf("%d", &soda);
+            if (!(soda))
+            {
+                printf("Donc on a, un menu maxi Veggie avec une potatoes et un soda \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+            if(soda)
+            {
+                 printf("Donc on a, un menu maxi Veggie avec une potatoes et de l'eau \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+        }
+        if (maxi)
+        {
+            printf("Donc on a un menu Veggie classique avec une potatoes \n en boisson ça sera eau (1) ou soda (0) ?\n");
+            scanf("%d", &soda);
+            if (!(soda))
+            {
+                printf("Donc on a, un menu Veggie classqiue avec une potatoes et un soda \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+             if(soda)
+            {
+                 printf("Donc on a, un menu Veggie classique avec une potatoes et de l'eau \n Merci de recuperer votre ticket et de passer en caisse.\n");
+            }
+        }
+    }
+    break;
+    default:
+        printf("gros naz t'as pas faim ?");
+}
+return 0;
+}
